@@ -30,12 +30,12 @@ body {
 
 .widget {
   display: flex;
-  height: 400px;
-  width:800px;
+  height: 190px;
+  width:640px;
   flex-wrap: wrap;
   cursor: pointer;
   border-radius: 20px;
-  margin-top:-30px;
+  margin-top:-40px;
   filter: drop-shadow(0.35rem 0.45rem 0.6rem rgba(0, 0, 0, 0.7));
 }
 .widget .weatherIcon {
@@ -48,7 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 100px;
+  font-size: 60px;
   background: linear-gradient(to bottom left, #ffffcc 41%, #ffcc00 100%);
 }
 
@@ -64,7 +64,7 @@ body {
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
   width: 100%;
-  font-size: 55px;
+  font-size: 30px;
   display: flex;
   justify-content: space-around;
   margin-right: 20px;
@@ -81,11 +81,11 @@ body {
 }
 .widget .weatherInfo .description .weatherCondition {
   text-transform: uppercase;
-  font-size: 35px;
+  font-size: 18px;
   font-weight: 100;
 }
 .widget .weatherInfo .description .place {
-  font-size: 20px;
+  font-size: 15px;
 }
 .widget .date {
   flex: 0 0 30%;
@@ -95,7 +95,7 @@ body {
   justify-content: space-around;
   align-items: center;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
   text-align: center;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .widget .extra-temp p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -136,12 +136,12 @@ body {
   font-weight: 600;
   
   color: #080705;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .two-sided-section i
 {
-    font-size: 30px;
+    font-size: 25px;
 }
 /* input search button style  */
 
@@ -154,15 +154,15 @@ body {
 }
 
 .searchTerm {
-  width: 70%;
+  width: 50%;
   
   /* border: 3px solid #00b4cc; */
   border: none;
   padding: 16px;
-  height: 60px;
+  height: 40px;
   border-radius: 15px 0 15px 0px;
   outline: none;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .searchTerm:focus {
@@ -180,9 +180,7 @@ body {
   color: #fff;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
-  font-size: 20px;
   outline: none;
-  font-size: 16px;
 }
 
 .searchButton:hover {
