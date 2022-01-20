@@ -131,7 +131,8 @@ function myTimer() {
     <>
       <article className="widget">
         <div className="weatherIcon">
-          <i className={`wi ${weatherState}`}><p style={{fontSize:"40px"}} ><b id='err'>{msg}</b></p></i>
+        
+          <i className={`wi ${weatherState}`}><p style={{fontSize:"25px",color:"red"}} ><b id='err'>{msg}</b></p></i>
         </div>
         
 
